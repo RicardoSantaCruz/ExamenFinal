@@ -1,0 +1,151 @@
+
+body{
+    width: 1000px;
+    margin: auto;
+    background-image: url(images/fondo.gif);
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 10px;
+}
+
+/* Cabezera */
+
+#cabeza{
+    color: #e4ae4a;
+    font-size: large;
+    text-shadow: 1px 1px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -20px;
+}
+
+#cabeza h1{
+    margin-left: 25px;
+}
+
+nav{
+    height: 30px;
+    background-color: #5c2121;
+    margin: 25px 10px 0px 25px;
+    border-radius: 10px;
+}
+
+ul#menul{
+    padding-bottom: 24px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+ul#menul li{
+    font-size: 20px;
+    margin: 0px 20px;
+    float: left;
+    height: 24px;
+}
+
+#menul a{
+    padding: 5px 15px 5px 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e4ae4a;
+}
+
+/* Banner */
+
+#banner{
+    float: right;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;   
+}
+
+#banner header{
+    color: rgb(209, 187, 146);
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    transform: translate(-90%, -50%);
+}
+
+#banner p{
+    color: rgb(209, 187, 146);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+}
+
+#banner img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+/* Columnas */
+
+#contenido{
+    margin: 380px 0px 20px 0px;
+    padding: 15px;
+    height: 720px;
+    background-color: #e2d8b5;
+    border-radius: 10px;
+}
+
+#contenido ul{
+    list-style: none;
+}
+
+.cuadro{
+    width: 200px;
+    height: 340px;
+    background-color: #e4ae4a;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.cuadro a{
+    color: #aca597;
+    padding: 5px 15px 5px 15px;
+    display: block;
+    float: left;  
+}
+
+.cuadro a img{
+    padding: 5px;
+    float: left;
+    border: 5px solid white;
+}
+
+#fomulario{
+    border-left-width: 500px;
+    float: right;
+}
+
+fieldset{
+    width: 200px;
+    height: 330px;
+}
+
+/* Final */
+
+footer{
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #5c2121;
+    color: aliceblue;
+}
+
+footer section{
+    padding: 15px;
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+
+footer a{
+    color: #e2d8b5;
+}
